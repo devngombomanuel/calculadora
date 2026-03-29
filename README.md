@@ -1,2 +1,2 @@
 # console-calculator
-Calculadora em Console, usando a linguagem C#
+- Uma imples calculadora em console application, usando a linguagem C#.
