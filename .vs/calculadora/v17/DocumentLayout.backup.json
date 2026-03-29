@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ngman\\MyStuffs\\Study\\DEV\\Projetos\\Stack I\\C#\\calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{034050A8-3BC3-408E-B241-E6A2B208F8CC}|calculadora.csproj|d:\\ngman\\mystuffs\\study\\dev\\projetos\\stack i\\c#\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{034050A8-3BC3-408E-B241-E6A2B208F8CC}|calculadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ngman\\MyStuffs\\Study\\DEV\\Projetos\\Stack I\\C#\\calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ngman\\MyStuffs\\Study\\DEV\\Projetos\\Stack I\\C#\\calculadora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T02:14:55.969Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
