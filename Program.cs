@@ -49,6 +49,8 @@
 
         default:
             Console.WriteLine("\t\t\t\t\tEscolha uma opção válida de acordo com o menu!");
+            Thread.Sleep(2000);
+            Menu();
             break;
     }
 
@@ -62,6 +64,8 @@ static void Soma()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\t\tSoma dos valores: {a} + {b} = {a + b}");
+    Thread.Sleep(4000);
+    Menu();
 }
 static void Subtracao()
 {
@@ -71,6 +75,8 @@ static void Subtracao()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tSubtração dos valores: {a} - {b} = {a - b}");
+    Thread.Sleep(4000);
+    Menu();
 }
 
 static void Multiplicacao()
@@ -81,6 +87,8 @@ static void Multiplicacao()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tMultiplicação dos valores: {a} x {b} = {a * b}");
+    Thread.Sleep(4000);
+    Menu();
 }
 static void Divisao()
 {
@@ -97,6 +105,8 @@ static void Divisao()
     {
         Console.WriteLine($"\t\t\t\tDivisão entre os valores: {a} / {b} = {a / b}");
     }
+    Thread.Sleep(4000);
+    Menu();
 }
 
 static void Potenciacao()
@@ -107,6 +117,8 @@ static void Potenciacao()
     Console.Write("\t\t\t\t\tExpoente: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tPotência: {a}^{b} = {Math.Pow(a, b)}");
+    Thread.Sleep(4000);
+    Menu();
 }
 
 static void RaizQuadrada()
@@ -122,6 +134,8 @@ static void RaizQuadrada()
     {
         Console.WriteLine("\t\t\t\tO número não pode ser negativo!");
     }
+    Thread.Sleep(4000);
+    Menu();
 }
 
 static void RaizCubica()
@@ -130,5 +144,7 @@ static void RaizCubica()
     Console.Write("\t\t\t\t\tNúmero: ");
     a = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
+    Thread.Sleep(4000);
+    Menu();
 
 }
