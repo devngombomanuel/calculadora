@@ -34,12 +34,7 @@
 
         //Potenciação
         case 5:
-            double a, b;
-            Console.Write("\t\t\t\t\tBase: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("\t\t\t\t\tExpoente: ");
-            b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"\t\t\t\tPotência: {a}^{b} = {Math.Pow(a, b)}");
+            Potenciacao();
             break;
 
         //Raiz quadrada
@@ -117,3 +112,12 @@ static void Divisao()
         Console.WriteLine($"\t\t\t\tDivisão entre os valores: {a} / {b} = {a / b}");
     }
 }
+
+static void Potenciacao()
+{
+    double a, b;
+    Console.Write("\t\t\t\t\tBase: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("\t\t\t\t\tExpoente: ");
+    b = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"\t\t\t\tPotência: {a}^{b} = {Math.Pow(a, b)}");
