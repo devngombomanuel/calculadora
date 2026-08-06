@@ -44,10 +44,7 @@
 
         //Raiz cúbica
         case 7:
-            double a;
-            Console.Write("\t\t\t\t\tNúmero: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
+            RaizCubica();
             break;
 
         default:
@@ -125,5 +122,13 @@ static void RaizQuadrada()
     {
         Console.WriteLine("\t\t\t\tO número não pode ser negativo!");
     }
+}
+
+static void RaizCubica()
+{
+    double a;
+    Console.Write("\t\t\t\t\tNúmero: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
 
 }
