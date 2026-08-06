@@ -1,4 +1,7 @@
 ﻿Menu();
+
+
+//Função para Menu
 static void Menu()
 {
     //Menu de Opções
