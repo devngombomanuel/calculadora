@@ -92,9 +92,7 @@ do
         break;
 
         default:
-            Console.WriteLine("\t\t\t\t\tEscolha uma opção válida! \n1 pra Soma, " +
-            "\n2 pra subtração, 3 pra multiplicação, 4 pra divisão," +
-            "\n5 pra potenciação, 6 pra raiz quadrada, e 7 pra raiz cubica");
+            Console.WriteLine("\t\t\t\t\tEscolha uma opção válida de acordo com o menu!");
         break;
     }
 
