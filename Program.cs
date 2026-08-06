@@ -5,10 +5,10 @@ string? resp;
 do
 {
     //Menu de Opções
-    Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.0*******");
+    Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.1*******");
     Console.WriteLine("\t\t\t\tQual Operação Deseja Realizar?" +
        "\n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n5- Potenciação" +
-       "\n6- Raiz Quadrada \n7- Raiz Cúbica\n");
+       "\n6- Raiz Quadrada \n7- Raiz Cúbica\n \n0 -  Sair");
 
 
     //Escolha das opções do menu
