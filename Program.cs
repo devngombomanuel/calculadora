@@ -8,43 +8,36 @@ static void Menu()
        "\n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n5- Potenciação" +
        "\n6- Raiz Quadrada \n7- Raiz Cúbica\n \n0 - Fechar calculadora");
 
-    //Escolha das opções do menu
     Console.Write("Opção: ");
     int opcao = Convert.ToInt32(Console.ReadLine());
     switch (opcao)
     {
         case 0: System.Environment.Exit(0); break;
-        //Soma
         case 1:
             Soma();
             break;
 
-        //Subtração
         case 2:
             Subtracao();
             break;
 
-        //Multiplicação
+
         case 3:
             Multiplicacao();
             break;
 
-        //Divisão
         case 4:
             Divisao();
             break;
 
-        //Potenciação
         case 5:
             Potenciacao();
             break;
 
-        //Raiz quadrada
         case 6:
             RaizQuadrada();
             break;
 
-        //Raiz cúbica
         case 7:
             RaizCubica();
             break;
@@ -58,6 +51,7 @@ static void Menu()
 
 }
 
+//Função Soma
 static void Soma()
 {
     Console.Clear();
@@ -70,6 +64,7 @@ static void Soma()
     Thread.Sleep(4000);
     Menu();
 }
+//Função Subtração
 static void Subtracao()
 {
     Console.Clear();
@@ -82,7 +77,7 @@ static void Subtracao()
     Thread.Sleep(4000);
     Menu();
 }
-
+//Função Multiplicação
 static void Multiplicacao()
 {
     Console.Clear();
@@ -95,6 +90,8 @@ static void Multiplicacao()
     Thread.Sleep(4000);
     Menu();
 }
+
+//Função Divisão
 static void Divisao()
 {
     Console.Clear();
@@ -115,6 +112,7 @@ static void Divisao()
     Menu();
 }
 
+//Função Potenciação
 static void Potenciacao()
 {
     Console.Clear();
@@ -128,6 +126,7 @@ static void Potenciacao()
     Menu();
 }
 
+//Função Raiz Quadrada
 static void RaizQuadrada()
 {
     Console.Clear();
@@ -145,7 +144,7 @@ static void RaizQuadrada()
     Thread.Sleep(4000);
     Menu();
 }
-
+//Função Raiz Cubica
 static void RaizCubica()
 {
     Console.Clear();
