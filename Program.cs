@@ -12,10 +12,8 @@ do
 
 
     //Escolha das operações
-    Console.Write("Operação: ");
-    opcao = Convert.ToInt32(Console.ReadLine());
-    switch (opcao)
     {
+        case 0: System.Environment.Exit(0); break;
         //Soma
         case 1:
             Console.Write("\t\t\t\t\tPrimeiro número: ");
