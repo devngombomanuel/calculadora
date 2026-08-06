@@ -1,2 +1,11 @@
-# console-calculator
-- Uma imples calculadora em console application, usando a linguagem C#.
+Uma calculadora em aplicação de console desenvolvida em C# (.NET 8).
+
+## 🚀 Funcionalidades
+- Operações básicas: Adição, Subtração, Multiplicação, Divisão e Potenciação
+- Estrutura modularizada com métodos independentes
+- Tratamento para divisão por zero e entradas inválidas
+
+## 🛠️ Tecnologias Utilizadas
+- C#
+- .NET 8 SDK
+
