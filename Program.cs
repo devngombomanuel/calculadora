@@ -13,35 +13,13 @@ static void Menu()
     switch (opcao)
     {
         case 0: System.Environment.Exit(0); break;
-        case 1:
-            Soma();
-            break;
-
-        case 2:
-            Subtracao();
-            break;
-
-
-        case 3:
-            Multiplicacao();
-            break;
-
-        case 4:
-            Divisao();
-            break;
-
-        case 5:
-            Potenciacao();
-            break;
-
-        case 6:
-            RaizQuadrada();
-            break;
-
-        case 7:
-            RaizCubica();
-            break;
-
+        case 1: Soma(); break;
+        case 2: Subtracao(); break;
+        case 3:Multiplicacao(); break;
+        case 4:Divisao();break;
+        case 5:Potenciacao();break;
+        case 6:RaizQuadrada();break;
+        case 7:RaizCubica();break;
         default:
             Console.WriteLine("\t\t\tEscolha uma opção válida de acordo com o menu!");
             Thread.Sleep(2000);
@@ -154,5 +132,4 @@ static void RaizCubica()
     Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
     Thread.Sleep(4000);
     Menu();
-
 }
