@@ -29,19 +29,7 @@
 
         //Divisão
         case 4:
-            double a, b;
-            Console.Write("\t\t\t\t\tPrimeiro número: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("\t\t\t\t\tSegundo número: ");
-            b = Convert.ToDouble(Console.ReadLine());
-            if (b == 0)
-            {
-                Console.WriteLine("\t\t\t\tO divisor não pode ser 0!");
-            }
-            else
-            {
-                Console.WriteLine($"\t\t\t\tDivisão entre os valores: {a} / {b} = {a / b}");
-            }
+            Divisao();
             break;
 
         //Potenciação
@@ -112,4 +100,20 @@ static void Multiplicacao()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tMultiplicação dos valores: {a} x {b} = {a * b}");
+}
+static void Divisao()
+{
+    double a, b;
+    Console.Write("\t\t\t\t\tPrimeiro número: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("\t\t\t\t\tSegundo número: ");
+    b = Convert.ToDouble(Console.ReadLine());
+    if (b == 0)
+    {
+        Console.WriteLine("\t\t\t\tO divisor não pode ser 0!");
+    }
+    else
+    {
+        Console.WriteLine($"\t\t\t\tDivisão entre os valores: {a} / {b} = {a / b}");
+    }
 }
