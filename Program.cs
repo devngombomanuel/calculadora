@@ -10,7 +10,6 @@ do
        "\n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n5- Potenciação" +
        "\n6- Raiz Quadrada \n7- Raiz Cúbica\n \n0 - Fechar calculadora");
 
-
     //Escolha das opções do menu
     Console.Write("Opção: ");
     opcao = Convert.ToInt32(Console.ReadLine());
