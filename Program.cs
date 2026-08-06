@@ -4,14 +4,17 @@ string? resp;
 
 do
 {
-    //Menu de Operações
+    //Menu de Opções
     Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.0*******");
     Console.WriteLine("\t\t\t\tQual Operação Deseja Realizar?" +
        "\n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n5- Potenciação" +
        "\n6- Raiz Quadrada \n7- Raiz Cúbica\n");
 
 
-    //Escolha das operações
+    //Escolha das opções do menu
+    Console.Write("Opção: ");
+    opcao = Convert.ToInt32(Console.ReadLine());
+    switch (opcao)
     {
         case 0: System.Environment.Exit(0); break;
         //Soma
@@ -95,24 +98,6 @@ do
         break;
     }
 
-    Console.WriteLine("\n\t\t\t\t\tDeseja Continuar[S/N]?");
-    resp = Console.ReadLine();
-    Console.Clear();
-
-    if (resp.Equals("n", StringComparison.OrdinalIgnoreCase))
-    {
-        Console.Clear();
-        Console.WriteLine("Programa fechado com sucesso!");
-        break;
-    }
-    else if (resp.Equals("s", StringComparison.OrdinalIgnoreCase) == false)
-    {
-            Console.WriteLine("Escolha uma das opções: S ou N");
-    }
-    else
-    {
-        Console.Clear();
-    }
 
 
     
