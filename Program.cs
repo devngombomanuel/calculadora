@@ -1,6 +1,5 @@
-﻿
-
-
+﻿static void Menu()
+{
     //Menu de Opções
     Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.1*******");
     Console.WriteLine("\t\t\t\tQual Operação Deseja Realizar?" +
@@ -92,11 +91,11 @@
             Console.Write("\t\t\t\t\tNúmero: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
-        break;
+            break;
 
         default:
             Console.WriteLine("\t\t\t\t\tEscolha uma opção válida de acordo com o menu!");
-        break;
+            break;
     }
 
-
+}
