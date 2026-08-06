@@ -19,12 +19,7 @@
 
         //Subtração
         case 2:
-            double a, b;
-            Console.Write("\t\t\t\t\tPrimeiro número: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("\t\t\t\t\tSegundo número: ");
-            b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"\t\t\t\tSubtração dos valores: {a} - {b} = {a - b}");
+            Subtracao();
             break;
 
         //Multiplicação
@@ -103,4 +98,13 @@ static void Soma()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\t\tSoma dos valores: {a} + {b} = {a + b}");
+}
+static void Subtracao()
+{
+    double a, b;
+    Console.Write("\t\t\t\t\tPrimeiro número: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("\t\t\t\t\tSegundo número: ");
+    b = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"\t\t\t\tSubtração dos valores: {a} - {b} = {a - b}");
 }
