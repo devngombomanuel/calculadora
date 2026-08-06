@@ -1,6 +1,8 @@
-﻿static void Menu()
+﻿Menu();
+static void Menu()
 {
     //Menu de Opções
+    Console.Clear();
     Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.1*******");
     Console.WriteLine("\t\t\t\tQual Operação Deseja Realizar?" +
        "\n1- Soma \n2- Subtração \n3- Multiplicação \n4- Divisão \n5- Potenciação" +
@@ -48,7 +50,7 @@
             break;
 
         default:
-            Console.WriteLine("\t\t\t\t\tEscolha uma opção válida de acordo com o menu!");
+            Console.WriteLine("\t\t\tEscolha uma opção válida de acordo com o menu!");
             Thread.Sleep(2000);
             Menu();
             break;
@@ -58,6 +60,7 @@
 
 static void Soma()
 {
+    Console.Clear();
     double a, b;
     Console.Write("\t\t\t\t\tPrimeiro número: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -69,6 +72,7 @@ static void Soma()
 }
 static void Subtracao()
 {
+    Console.Clear();
     double a, b;
     Console.Write("\t\t\t\t\tPrimeiro número: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -81,6 +85,7 @@ static void Subtracao()
 
 static void Multiplicacao()
 {
+    Console.Clear();
     double a, b;
     Console.Write("\t\t\t\t\tPrimeiro número: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -92,6 +97,7 @@ static void Multiplicacao()
 }
 static void Divisao()
 {
+    Console.Clear();
     double a, b;
     Console.Write("\t\t\t\t\tPrimeiro número: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -111,6 +117,7 @@ static void Divisao()
 
 static void Potenciacao()
 {
+    Console.Clear();
     double a, b;
     Console.Write("\t\t\t\t\tBase: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -123,6 +130,7 @@ static void Potenciacao()
 
 static void RaizQuadrada()
 {
+    Console.Clear();
     double a;
     Console.Write("\t\t\t\t\tNúmero: ");
     a = Convert.ToDouble(Console.ReadLine());
@@ -140,6 +148,7 @@ static void RaizQuadrada()
 
 static void RaizCubica()
 {
+    Console.Clear();
     double a;
     Console.Write("\t\t\t\t\tNúmero: ");
     a = Convert.ToDouble(Console.ReadLine());
