@@ -1,6 +1,6 @@
 ﻿
-do
-{
+
+
     //Menu de Opções
     Console.WriteLine("\t\t\t*******Bem-vindo a Calculadora 1.1*******");
     Console.WriteLine("\t\t\t\tQual Operação Deseja Realizar?" +
@@ -15,6 +15,7 @@ do
         case 0: System.Environment.Exit(0); break;
         //Soma
         case 1:
+            double a, b;
             Console.Write("\t\t\t\t\tPrimeiro número: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("\t\t\t\t\tSegundo número: ");
@@ -24,6 +25,7 @@ do
 
         //Subtração
         case 2:
+            double a, b;
             Console.Write("\t\t\t\t\tPrimeiro número: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("\t\t\t\t\tSegundo número: ");
@@ -33,6 +35,7 @@ do
 
         //Multiplicação
         case 3:
+            double a, b;
             Console.Write("\t\t\t\t\tPrimeiro número: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("\t\t\t\t\tSegundo número: ");
@@ -42,6 +45,7 @@ do
 
         //Divisão
         case 4:
+            double a, b;
             Console.Write("\t\t\t\t\tPrimeiro número: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("\t\t\t\t\tSegundo número: ");
@@ -58,6 +62,7 @@ do
 
         //Potenciação
         case 5:
+            double a, b;
             Console.Write("\t\t\t\t\tBase: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.Write("\t\t\t\t\tExpoente: ");
@@ -67,6 +72,7 @@ do
 
         //Raiz quadrada
         case 6:
+            double a;
             Console.Write("\t\t\t\t\tNúmero: ");
             a = Convert.ToDouble(Console.ReadLine());
             if (a > 0)
@@ -82,6 +88,7 @@ do
 
         //Raiz cúbica
         case 7:
+            double a;
             Console.Write("\t\t\t\t\tNúmero: ");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"\t\t\t\tRaiz cúbica de: {a} = {Math.Cbrt(a)}");
@@ -93,7 +100,3 @@ do
     }
 
 
-
-    
-
-} while (resp.Equals("s", StringComparison.OrdinalIgnoreCase));
