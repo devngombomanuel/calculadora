@@ -24,12 +24,7 @@
 
         //Multiplicação
         case 3:
-            double a, b;
-            Console.Write("\t\t\t\t\tPrimeiro número: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("\t\t\t\t\tSegundo número: ");
-            b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"\t\t\t\tMultiplicação dos valores: {a} x {b} = {a * b}");
+            Multiplicacao();
             break;
 
         //Divisão
@@ -107,4 +102,14 @@ static void Subtracao()
     Console.Write("\t\t\t\t\tSegundo número: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tSubtração dos valores: {a} - {b} = {a - b}");
+}
+
+static void Multiplicacao()
+{
+    double a, b;
+    Console.Write("\t\t\t\t\tPrimeiro número: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("\t\t\t\t\tSegundo número: ");
+    b = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"\t\t\t\tMultiplicação dos valores: {a} x {b} = {a * b}");
 }
