@@ -14,12 +14,7 @@
         case 0: System.Environment.Exit(0); break;
         //Soma
         case 1:
-            double a, b;
-            Console.Write("\t\t\t\t\tPrimeiro número: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.Write("\t\t\t\t\tSegundo número: ");
-            b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"\t\t\t\t\tSoma dos valores: {a} + {b} = {a + b}");
+            Soma();
             break;
 
         //Subtração
@@ -98,4 +93,14 @@
             break;
     }
 
+}
+
+static void Soma()
+{
+    double a, b;
+    Console.Write("\t\t\t\t\tPrimeiro número: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.Write("\t\t\t\t\tSegundo número: ");
+    b = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"\t\t\t\t\tSoma dos valores: {a} + {b} = {a + b}");
 }
