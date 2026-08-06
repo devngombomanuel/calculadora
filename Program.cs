@@ -39,18 +39,7 @@
 
         //Raiz quadrada
         case 6:
-            double a;
-            Console.Write("\t\t\t\t\tNúmero: ");
-            a = Convert.ToDouble(Console.ReadLine());
-            if (a > 0)
-            {
-                Console.WriteLine($"\t\t\t\tRaiz quadrada de: {a} = {Math.Sqrt(a)}");
-            }
-            else
-            {
-                Console.WriteLine("\t\t\t\tO número não pode ser negativo!");
-            }
-
+            RaizQuadrada();
             break;
 
         //Raiz cúbica
@@ -121,3 +110,20 @@ static void Potenciacao()
     Console.Write("\t\t\t\t\tExpoente: ");
     b = Convert.ToDouble(Console.ReadLine());
     Console.WriteLine($"\t\t\t\tPotência: {a}^{b} = {Math.Pow(a, b)}");
+}
+
+static void RaizQuadrada()
+{
+    double a;
+    Console.Write("\t\t\t\t\tNúmero: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    if (a > 0)
+    {
+        Console.WriteLine($"\t\t\t\tRaiz quadrada de: {a} = {Math.Sqrt(a)}");
+    }
+    else
+    {
+        Console.WriteLine("\t\t\t\tO número não pode ser negativo!");
+    }
+
+}
