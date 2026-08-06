@@ -1,7 +1,4 @@
-﻿double a, b;
-int opcao;
-string? resp;
-
+﻿
 do
 {
     //Menu de Opções
@@ -12,7 +9,7 @@ do
 
     //Escolha das opções do menu
     Console.Write("Opção: ");
-    opcao = Convert.ToInt32(Console.ReadLine());
+    int opcao = Convert.ToInt32(Console.ReadLine());
     switch (opcao)
     {
         case 0: System.Environment.Exit(0); break;
