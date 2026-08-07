@@ -1,6 +1,5 @@
 # Calculadora
-Simples calculadora em Console Application desenvolvida em C# (.NET 8). 
-Uso de modularização para o menu e operações com funções.
+Simples calculadora em console application. 
 
 ## 🚀 Funcionalidades
 - Menu interativo
